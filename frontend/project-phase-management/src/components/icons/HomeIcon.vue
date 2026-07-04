@@ -1,0 +1,17 @@
+<template>
+  <svg
+    fill="currentColor"
+    width="24px"
+    height="24px"
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g stroke-width="0"></g>
+    <g stroke-linecap="round" stroke-linejoin="round"></g>
+    <g>
+      <path
+        d="M21.71,10.29l-9-9a1,1,0,0,0-1.42,0l-9,9a1,1,0,0,0-.21,1.09A1,1,0,0,0,3,12H4v9a1,1,0,0,0,1,1H8a1,1,0,0,0,1-1V15a1,1,0,0,1,1-1h4a1,1,0,0,1,1,1v6a1,1,0,0,0,1,1h3a1,1,0,0,0,1-1V12h1a1,1,0,0,0,.92-.62A1,1,0,0,0,21.71,10.29Z"
+      ></path>
+    </g>
+  </svg>
+</template>

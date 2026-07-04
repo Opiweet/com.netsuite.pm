@@ -1,0 +1,52 @@
+<mapreducescript scriptid="customscript_bc_pm_mrs_rollcurrevplanact">
+  <description>Runs at an interval and set the Rev Plan Type to &quot;Actual&quot; for all Rev Plans of the current month.</description>
+  <isinactive>F</isinactive>
+  <name>BC_PM_MRS_RollCurrentMonthRevPlansActual</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteApps/com.netsuite.pm/project-phase/BC_PM_MRS_RollCurrentMonthRevPlansActual.js]</scriptfile>
+  <scriptcustomfields>
+    <scriptcustomfield scriptid="custscript_pm_sim_period_rollrevplan">
+      <accesslevel>2</accesslevel>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description>Keep this null in production. If set (e.g. apr-2026), this map/reduce will treat that as the current period.</description>
+      <displaytype>NORMAL</displaytype>
+      <dynamicdefault></dynamicdefault>
+      <fieldtype>TEXT</fieldtype>
+      <help>Keep this null in production. If set (e.g. apr-2026), this map/reduce will treat that as the current period.</help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <label>[PM] Simulated Period (for testing only)</label>
+      <onparentdelete>NO_ACTION</onparentdelete>
+      <searchlevel>2</searchlevel>
+      <storevalue>T</storevalue>
+    </scriptcustomfield>
+  </scriptcustomfields>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_bc_pm_mrs_rollcurrevplanact">
+      <buffersize>1</buffersize>
+      <concurrencylimit>1</concurrencylimit>
+      <custscript_pm_sim_period_rollrevplan></custscript_pm_sim_period_rollrevplan>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <queueallstagesatonce>T</queueallstagesatonce>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>SCHEDULED</status>
+      <title>BC_PM_MRS_RollCurrentMonthRevPlansActual</title>
+      <yieldaftermins>60</yieldaftermins>
+      <recurrence>
+        <daily>
+          <everyxdays>1</everyxdays>
+          <repeat></repeat>
+          <startdate>2026-04-17</startdate>
+          <starttime>23:30:00Z</starttime>
+        </daily>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</mapreducescript>

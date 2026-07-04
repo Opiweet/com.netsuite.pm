@@ -1,0 +1,20 @@
+<customlist scriptid="customlist_pm_job_site">
+  <description>Options of site available under a job.</description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>[PM] Job Site</name>
+  <customvalues>
+    <customvalue scriptid="val_27258_11980272_445">
+      <isinactive>F</isinactive>
+      <value>Inherited (From Project)</value>
+    </customvalue>
+    <customvalue scriptid="val_27259_11980272_793">
+      <isinactive>F</isinactive>
+      <value>All Sites</value>
+    </customvalue>
+    <customvalue scriptid="val_27260_11980272_235">
+      <isinactive>F</isinactive>
+      <value>None</value>
+    </customvalue>
+  </customvalues>
+</customlist>

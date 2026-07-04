@@ -1,0 +1,16 @@
+<customlist scriptid="customlist_pm_revplan_type">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>[PM] Revenue Plan Type</name>
+  <customvalues>
+    <customvalue scriptid="val_28498_11980272_507">
+      <isinactive>F</isinactive>
+      <value>Actual</value>
+    </customvalue>
+    <customvalue scriptid="val_28499_11980272_757">
+      <isinactive>F</isinactive>
+      <value>Forecast</value>
+    </customvalue>
+  </customvalues>
+</customlist>

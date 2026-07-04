@@ -1,0 +1,24 @@
+<customlist scriptid="customlist_pm_revplan_status">
+  <description>This is the different statuses for revenue plan.</description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>[PM] Revenue Plan Status</name>
+  <customvalues>
+    <customvalue scriptid="val_28389_11980272_633">
+      <isinactive>F</isinactive>
+      <value>Open</value>
+    </customvalue>
+    <customvalue scriptid="val_28390_11980272_193">
+      <isinactive>F</isinactive>
+      <value>Rev Rec Ready</value>
+    </customvalue>
+    <customvalue scriptid="val_28391_11980272_757">
+      <isinactive>F</isinactive>
+      <value>Cancelled</value>
+    </customvalue>
+    <customvalue scriptid="val_28392_11980272_495">
+      <isinactive>F</isinactive>
+      <value>Completed</value>
+    </customvalue>
+  </customvalues>
+</customlist>

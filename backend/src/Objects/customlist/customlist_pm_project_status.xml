@@ -1,0 +1,40 @@
+<customlist scriptid="customlist_pm_project_status">
+  <description>Different statuses available for project record</description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>[PM] Project Status</name>
+  <customvalues>
+    <customvalue scriptid="pm_pstatus_pendingappr">
+      <isinactive>F</isinactive>
+      <value>Pending Approval</value>
+    </customvalue>
+    <customvalue scriptid="pm_pstatus_appr">
+      <isinactive>F</isinactive>
+      <value>Approved</value>
+    </customvalue>
+    <customvalue scriptid="pm_pstatus_rej">
+      <isinactive>F</isinactive>
+      <value>Rejected</value>
+    </customvalue>
+    <customvalue scriptid="pm_pstatus_comp">
+      <isinactive>F</isinactive>
+      <value>Completed</value>
+    </customvalue>
+    <customvalue scriptid="pm_pstatus_closed">
+      <isinactive>F</isinactive>
+      <value>Closed</value>
+    </customvalue>
+    <customvalue scriptid="pm_pstatus_draft">
+      <isinactive>F</isinactive>
+      <value>Draft</value>
+    </customvalue>
+    <customvalue scriptid="pm_pstatus_active">
+      <isinactive>F</isinactive>
+      <value>Active</value>
+    </customvalue>
+    <customvalue scriptid="pm_pstatus_onhold">
+      <isinactive>F</isinactive>
+      <value>On Hold</value>
+    </customvalue>
+  </customvalues>
+</customlist>

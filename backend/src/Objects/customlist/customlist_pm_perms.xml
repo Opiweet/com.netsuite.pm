@@ -1,0 +1,44 @@
+<customlist scriptid="customlist_pm_perms">
+  <description>List of permissions available for Project Management users&apos; roles.</description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>[PM] Permissions</name>
+  <customvalues>
+  <customvalue scriptid="pm_perm_project_read">
+    <isinactive>F</isinactive>
+    <value>PROJECT.READ</value>
+  </customvalue>
+  <customvalue scriptid="pm_perm_job_read">
+    <isinactive>F</isinactive>
+    <value>JOB.READ</value>
+  </customvalue>
+  <customvalue scriptid="pm_perm_ir_read">
+    <isinactive>F</isinactive>
+    <value>IR.READ</value>
+  </customvalue>
+  <customvalue scriptid="pm_perm_ir_create">
+    <isinactive>F</isinactive>
+    <value>IR.CREATE</value>
+  </customvalue>
+  <customvalue scriptid="pm_perm_ir_update">
+    <isinactive>F</isinactive>
+    <value>IR.UPDATE</value>
+  </customvalue>
+  <customvalue scriptid="pm_perm_ir_delete">
+    <isinactive>F</isinactive>
+    <value>IR.DELETE</value>
+  </customvalue>
+  <customvalue scriptid="pm_perm_ir_restore">
+    <isinactive>F</isinactive>
+    <value>IR.RESTORE</value>
+  </customvalue>
+  <customvalue scriptid="pm_perm_financial_summary_read">
+    <isinactive>F</isinactive>
+    <value>FINANCIAL_SUMMARY.READ</value>
+  </customvalue>
+  <customvalue scriptid="pm_perm_access_admin">
+    <isinactive>F</isinactive>
+    <value>ACCESS.ADMIN</value>
+  </customvalue>
+  </customvalues>
+</customlist>

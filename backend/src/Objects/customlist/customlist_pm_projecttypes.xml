@@ -1,0 +1,16 @@
+<customlist scriptid="customlist_pm_projecttypes">
+  <description>List of all available project types to be stated on each project created.</description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>[PM] Project Type List</name>
+  <customvalues>
+    <customvalue scriptid="pm_ptype_capex">
+      <isinactive>F</isinactive>
+      <value>capex</value>
+    </customvalue>
+    <customvalue scriptid="pm_ptype_opex">
+      <isinactive>F</isinactive>
+      <value>opex</value>
+    </customvalue>
+  </customvalues>
+</customlist>
